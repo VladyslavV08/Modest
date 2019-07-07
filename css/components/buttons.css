@@ -1,0 +1,61 @@
+.hero-buttons {
+  display: flex;
+  width: 262px;
+  margin: 0 -7.5px;
+}
+
+.button-hero-wrap {
+  padding: 0 7.5px;
+  width: 50%;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.button-default {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+
+.button-reverse {
+  color: #ffffff;
+  border: 2px solid #23b7a4;
+  background-color: #23b7a4;
+}
+
+.button-default:hover {
+  color: #ffffff;
+  border: 2px solid #23b7a4;
+  background-color: #23b7a4;
+}
+
+.button-reverse:hover {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: #3a454d;
+}
+
+.button-lovely {
+  width: 147px;
+  margin-top: 32px;
+}
+
+.button-lovely-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.button-contact {
+  width: 147px;
+}

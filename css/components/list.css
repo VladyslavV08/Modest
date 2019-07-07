@@ -1,0 +1,42 @@
+.section-list {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+  counter-reset: number;
+  list-style-type: none;
+}
+
+.section-list li {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.section-list li::before {
+  counter-increment: number;
+  content: '0' counter(number);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #23b7a4;
+  color: #ffffff;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.list-title {
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.list-description {
+  margin: 0;
+}

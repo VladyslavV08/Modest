@@ -1,0 +1,47 @@
+.form {
+  background-color: white;
+  margin-top: -129px;
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+}
+
+.form-layout {
+  display: flex;
+  margin: 0 -7.5px;
+}
+
+.form-input {
+  margin-bottom: 30px;
+  padding: 0 7.5px;
+}
+
+.form-style {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #eaeef1;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0;
+}
+
+.form-area {
+  margin-bottom: 32px;
+}
+
+.form-textarea {
+  resize: none;
+  height: 159px;
+}
+
+.form-title {
+  color: #8d8f92;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-left: 6px;
+}

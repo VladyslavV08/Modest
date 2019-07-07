@@ -1,0 +1,88 @@
+.section {
+  padding-top: 85px;
+  padding-bottom: 100px;
+}
+
+.section-reverse {
+  background-color: #3a454d;
+  color: #ffffff;
+}
+
+.section-weare {
+  border-bottom: 2px solid #dde1e4;
+}
+
+.section-title {
+  color: #292f36;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-bottom: 63px;
+  display: flex;
+  align-items: center;
+}
+
+.section .section-title::before {
+  content:'';
+  width: 10px;
+  height: 35px;
+  margin-right: 15px;
+  background-color: #e1e6ea;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.section-reverse .section-title::before {
+  content:'';
+  width: 10px;
+  height: 35px;
+  margin-right: 15px;
+  background-color: #4e5a62;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.section-title-reverse {
+  color: #ffffff;
+}
+
+.section-paragraph {
+  margin: 0;
+}
+
+.section-contact-media {
+  position: relative;
+  margin: 0;
+  height: 320px;
+}
+
+.contact-figure-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #a9acad;
+  opacity: 0.4;
+}
+
+.section-wedo .section-layout:first-child {
+  margin-bottom: 94px;
+}
+
+.section-subtitle {
+  color: #292f36;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 60px;
+  margin-bottom: 39px;
+}

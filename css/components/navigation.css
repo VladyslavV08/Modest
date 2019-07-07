@@ -1,0 +1,35 @@
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 -10px;
+  align-items: center;
+}
+
+.nav-wrap {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+  
+.nav-item {
+  color: #a4aead;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+}
+
+.nav-item:hover {
+  color: #a4aead;
+  border: 2px solid #5b6168;
+}
+
+.isactive {
+  color: #23b7a4;
+  border: 2px solid #23b7a4;
+}

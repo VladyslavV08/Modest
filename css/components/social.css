@@ -1,0 +1,79 @@
+.social {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social > li {
+  list-style-type: none;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+}
+
+.social-60 {
+  width: 60px;
+  height: 60px;
+  background-color: #c8cdd0;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-60:hover {
+  background-color: #d0d5d9;
+}
+
+.social-50 {
+  width: 50px;
+  height: 50px;
+  background-color: #3a454d;
+  margin-right: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-50:hover {
+  background-color: #4e5a62;
+}
+
+.social-weare {
+  margin-top: 54px;
+}
+
+.social-footer {
+  width: 155px;
+  justify-content: space-between;
+}
+
+.icon-size-weare {
+  height: 25px;
+  width: auto;
+}
+
+.icon-size-team {
+  height: 17px;
+  width: auto;
+}
+
+.icon-size-footer {
+  height: 18px;
+  width: auto;
+}
+
+.social-30 {
+  width: 30px;
+  height: 30px;
+  background-color: #3a454d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-30:hover {
+  background-color: #7d94a5;
+}
